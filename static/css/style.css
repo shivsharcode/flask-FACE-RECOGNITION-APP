@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+#heading{
+    text-align: center;
+    background-color: burlywood;
+    height: 10vh;
+    
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    
+}
+
+.videobox {
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the videobox horizontally */
+    border: 2px solid black; /* Add a black border */
+    padding: 10px; /* Add some padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+
+    height: 40%;
+
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+
+    margin-top: 15vh;
+}
+
+img{
+    border: 2px solid black;
+    width: 70%;
+}
